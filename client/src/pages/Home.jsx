@@ -4,7 +4,10 @@ import Navbar from '../components/Navbar'
 const Home = () => {
   return (
     <>
-       <Navbar />
+      <Navbar />
+      <div className="mt-20 text-center text-2xl">
+        Hello World 👋
+      </div>
     </>
   )
 }
